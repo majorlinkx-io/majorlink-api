@@ -1,0 +1,9 @@
+node_modules/
+#credetials
+secrets.js
+#misc
+.env
+user.json
+junk.js
+test.txt
+majorlinkx-api.cer
