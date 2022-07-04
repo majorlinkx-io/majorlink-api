@@ -35,8 +35,8 @@ mongoose.connection.on("error", (error) => {
 const myRoutes = require('./routes/userRoutes')
 app.use('/api/users', myRoutes)
 
-app.listen("5000", () => {
-  console.log("App is listening on port 5000")
+app.listen("4000", () => {
+  console.log("App is listening on port 4000")
 })
 
 module.exports = app
